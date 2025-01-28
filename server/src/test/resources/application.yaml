@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: demo
+  datasource:
+    url: jdbc:postgresql://db:5432/dev
+    driverClassName: org.postgresql.Driver
+    username: root
+    password: root
+  mvc:
+    problemdetails:
+      enabled: true
+  flyway:
+    clean-disabled: false
+
+flyway:
+  enable: true
+  baseline-on-migrate: true
